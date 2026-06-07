@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-label="架空のオフィス複合機のイラスト">
+  <defs>
+    <linearGradient id="body" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#edf3f8"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d8e2ec"/>
+      <stop offset="1" stop-color="#f5f8fb"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="520" fill="#f7fafd"/>
+  <ellipse cx="366" cy="454" rx="260" ry="28" fill="#dce4ee"/>
+
+  <path d="M190 88h294c28 0 50 22 50 50v50H152v-62c0-21 17-38 38-38z" fill="url(#body)" stroke="#9fb0c3" stroke-width="5"/>
+  <path d="M224 54h220c22 0 40 18 40 40v28H184V94c0-22 18-40 40-40z" fill="#fdfefe" stroke="#9fb0c3" stroke-width="5"/>
+  <path d="M216 76h200" stroke="#c4cfdb" stroke-width="7" stroke-linecap="round"/>
+  <path d="M474 126h98c20 0 36 16 36 36v46H474z" fill="#e8eef5" stroke="#9fb0c3" stroke-width="5"/>
+  <rect x="506" y="148" width="60" height="24" rx="4" fill="#1f6fb2"/>
+  <circle cx="584" cy="160" r="7" fill="#55b87b"/>
+
+  <path d="M132 186h468c22 0 40 18 40 40v204c0 22-18 40-40 40H132c-22 0-40-18-40-40V226c0-22 18-40 40-40z" fill="url(#body)" stroke="#8799ad" stroke-width="6"/>
+  <path d="M180 220h360v66c0 14-11 25-25 25H205c-14 0-25-11-25-25z" fill="#dfe7f0" stroke="#9fb0c3" stroke-width="5"/>
+  <path d="M246 230h228v86H246z" fill="#ffffff" stroke="#b7c4d2" stroke-width="4"/>
+  <path d="M266 252h188" stroke="#d2dce7" stroke-width="5" stroke-linecap="round"/>
+  <path d="M266 272h132" stroke="#d2dce7" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="154" y="342" width="412" height="48" rx="4" fill="#f8fafc" stroke="#9fb0c3" stroke-width="5"/>
+  <rect x="154" y="402" width="412" height="48" rx="4" fill="#eef4f9" stroke="#9fb0c3" stroke-width="5"/>
+  <path d="M202 366h316M202 426h316" stroke="#c4cfdb" stroke-width="5" stroke-linecap="round"/>
+  <path d="M120 226h520" stroke="#c7d2df" stroke-width="5"/>
+  <path d="M110 230l40 42h420l52-42" fill="url(#shadow)" stroke="#9fb0c3" stroke-width="5"/>
+</svg>
