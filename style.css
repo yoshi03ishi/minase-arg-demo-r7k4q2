@@ -287,13 +287,50 @@ dd {
 .news-item,
 .history-item,
 .faq-item,
-.timeline-item,
-.case-item {
+.timeline-item {
   display: grid;
-  grid-template-columns: 120px minmax(0, 1fr);
+  grid-template-columns: 132px minmax(0, 1fr);
   gap: 18px;
+  align-items: start;
   padding: 18px 0;
   border-bottom: 1px solid var(--line);
+}
+
+.case-item {
+  display: grid;
+  grid-template-columns: 180px 64px minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.news-item h3,
+.history-item h3,
+.faq-item h3,
+.timeline-item h3,
+.case-item h3 {
+  margin: 0 0 6px;
+  line-height: 1.45;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.news-item p,
+.history-item p,
+.faq-item p,
+.case-item p {
+  margin: 0;
+}
+
+.case-visual {
+  display: block;
+  width: 100%;
+  max-width: 180px;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  background: #f7fafd;
 }
 
 .date,
@@ -435,7 +472,8 @@ dd {
 
   .hero-visual img,
   .product-illustration,
-  .device-card-visual {
+  .device-card-visual,
+  .case-visual {
     max-width: 360px;
   }
 
